@@ -1,0 +1,20 @@
+.contain{
+    width:"30vw";
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+}
+.card{
+    width:15vw;
+    height:50vh;
+    display: flex;
+    align-items: center;
+    border: 2px solid red;
+    border-radius: 10%;
+  }
+  .card:hover{
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  }
+  .text{
+    
+  }
