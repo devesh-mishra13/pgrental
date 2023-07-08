@@ -13,8 +13,7 @@ function Header() {
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
               <Nav.Link href="#features">About</Nav.Link>
-              <Nav.Link href="#pricing">Socials</Nav.Link>
-              <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
+              <NavDropdown title="Socials" id="collasible-nav-dropdown">
                 <NavDropdown.Item href="#action/3.1">Github</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.2">
                   Instagram
