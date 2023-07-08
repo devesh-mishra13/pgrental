@@ -1,20 +1,38 @@
 .contain{
-    width:"30vw";
+    width: 30vw;
     height: 50vh;
     display: flex;
-    justify-content: center;
-}
-.card{
-    width:15vw;
-    height:50vh;
-    display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    border: 2px solid red;
+    margin:"20px";
+}
+.card1{
+    width:25vw;
+    height:35vh;
+    border: 2px solid black;
     border-radius: 10%;
+    }
+.card1:hover{
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+.text{
+  font-family: Courier New, monospace;
+  font-size: 25px;
+  color: #333;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+@media only screen and (max-width: 767px) {
+  .text {
+    font-size: 14px;
   }
-  .card:hover{
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+@media only screen and (max-width: 450px) {
+  .card1 {
+    height:30vh;
+    border:0;
   }
-  .text{
-    
+  .card1:hover{
+    box-shadow: none;
   }
+}
