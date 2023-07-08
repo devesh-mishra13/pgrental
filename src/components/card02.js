@@ -1,17 +1,13 @@
 import './box1.css'
+import { Link } from 'react-router-dom';
 
 export default function Card02(){
-    const onhandleclick=()=>{
-        return(
-            console.log("for business")
-        );
-    }
     return(
         <div className="box1">
             <h2>FOR BUSINESS</h2>
             <p>Register your house for rent</p>
             <div className='buttondiv'>
-            <button onClick={onhandleclick()}>CLICK HERE!</button>
+            <button><Link className='no-shine' to='/business'>CLICK HERE!</Link></button>
             </div>
         </div>
     );
