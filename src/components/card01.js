@@ -8,8 +8,11 @@ export default function Card01(){
     }
     return(
         <div className="box1">
-            <h1 style={{height:"40%"}}>FOR BUSINESS</h1>
-            <button onClick={onhandleclick()} style={{height:"60%"}}>CLICK HERE!</button>
+            <h2>FOR RENTAL</h2>
+            <p>Checkout the best house for you and your family</p>
+            <div className='buttondiv'>
+            <button onClick={onhandleclick()}>CLICK HERE!</button>
+            </div>
         </div>
     );
 }

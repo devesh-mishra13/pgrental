@@ -11,6 +11,9 @@
     height:35vh;
     border: 2px solid black;
     border-radius: 10%;
+    background-color: #1B6B93;
+    display: flex;
+    justify-content: center;
     }
 .card1:hover{
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
@@ -20,7 +23,6 @@
   font-size: 25px;
   color: #333;
   text-align: center;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 @media only screen and (max-width: 767px) {
   .text {
@@ -34,5 +36,14 @@
   }
   .card1:hover{
     box-shadow: none;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .card1{
+    width:25vw;
+    height:37vh;
+    border: 2px solid black;
+    border-radius: 10%;
+    background-color: #1B6B93;
   }
 }

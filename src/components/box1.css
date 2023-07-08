@@ -1,4 +1,60 @@
 .box1{
-    height:30vh;
+    height:25vh;
+    width: 200px;
+    background-color:#1B6B93;
+    border-radius: 25px;
+    text-align: -webkit-center;
+}
+.box1:hover{
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  }
+h2{
+    width:90%;
+    height: 25%;
+    font-family: Garamond, serif;
+    padding-top: 4%;
+}
+p{
+    width:90%;
+    height: 30%;
+    font-family: Garamond, serif;
+    font-weight: bold;
+    padding-top: 25px;
+}
+button{
+    height:10%;
+    width:auto;
+    border-radius: 20% !important;
+    font-family: Garamond, serif;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+button:hover{
     background-color: aqua;
+}
+@media only screen and (max-width:450px) {
+    .box1{
+        height:25vh;
+        width: 33%;
+        background-color:cornflowerblue;
+        text-align: -webkit-center;
+    }
+    h2{
+        width:90%;
+        font-family: Garamond, serif;
+        font-weight: bold;
+    }
+    p{
+        width:90%;
+        height: 30%;
+        font-family: Garamond, serif;
+        font-weight: bold;
+    }
+    .box1:hover{
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+      }
+      .buttondiv{
+        padding-top: 38px;
+      }
 }
