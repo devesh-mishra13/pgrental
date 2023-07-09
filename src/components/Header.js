@@ -27,6 +27,8 @@ function Header() {
               </NavDropdown>
             </Nav>
             <Nav>
+            <Nav.Link eventKey={2}><Link className='no-shine' to={'/login'}>Login</Link></Nav.Link>
+              <Nav.Link eventKey={2}><Link className='no-shine' to={'/signup'}>Signup</Link></Nav.Link>
               <Nav.Link eventKey={2} href="#Profile">
                 Profile
               </Nav.Link>
