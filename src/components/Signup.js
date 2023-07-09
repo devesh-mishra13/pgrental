@@ -1,14 +1,21 @@
+import { Link } from 'react-router-dom';
 import './Signup.css'
 
 export default function Signup(){
     return(
-        <div>
-            <h1>Signup</h1>
-            <input placeholder='username'></input>
-            <input placeholder='email'></input>
-            <input placeholder='password'></input>
-            <input placeholder='confirm password'></input>
-            <input placeholder='Contact'></input>
+        <div class="signup-container">
+        <div class="form-container">
+          <h2>Sign Up</h2>
+          <form>
+            <input type="text" placeholder="Username" />
+            <input type="email" placeholder="Email" />
+            <input type="password" placeholder="Password" />
+            <input type="password" placeholder="Confirm Password" />
+            <button className='but1' type="submit">Sign Up</button>
+          </form>
+          <p class="login-link">Already have an account? <Link to={'/login'}>Login</Link></p>
         </div>
+      </div>
+      
     );
 }

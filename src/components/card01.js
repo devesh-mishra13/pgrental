@@ -7,7 +7,7 @@ export default function Card01(){
             <h2>FOR RENTAL</h2>
             <p>Checkout the best house for you and your family</p>
             <div className='buttondiv'>
-            <button><Link className='no-shine' to='/rental'>CLICK HERE!</Link></button>
+            <button className='but'><Link className='no-shine' to='/rental'>CLICK HERE!</Link></button>
             </div>
         </div>
     );

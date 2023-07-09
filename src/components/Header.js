@@ -12,8 +12,8 @@ function Header() {
           <Navbar.Brand><Link className='no-shine' to={'/'}>PG RENTAL</Link></Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
-            <Nav className="me-auto">
-              <Nav.Link href="#features">About</Nav.Link>
+             <Nav className="me-auto">
+              {/*<Nav.Link href="#features">About</Nav.Link>
               <NavDropdown title="Socials" id="collasible-nav-dropdown">
                 <NavDropdown.Item href="#action/3.1">Github</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.2">
@@ -24,14 +24,11 @@ function Header() {
                 <NavDropdown.Item href="#action/3.4">
                   WhatsApp
                 </NavDropdown.Item>
-              </NavDropdown>
-            </Nav>
+    </NavDropdown>*/}
+            </Nav> 
             <Nav>
-            <Nav.Link eventKey={2}><Link className='no-shine' to={'/login'}>Login</Link></Nav.Link>
+            <Nav.Link eventKey={2}><Link className='no-shine mr-auto' to={'/login'}>Login</Link></Nav.Link>
               <Nav.Link eventKey={2}><Link className='no-shine' to={'/signup'}>Signup</Link></Nav.Link>
-              <Nav.Link eventKey={2} href="#Profile">
-                Profile
-              </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
